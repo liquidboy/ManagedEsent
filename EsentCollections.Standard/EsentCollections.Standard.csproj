@@ -1,0 +1,54 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="..\EsentCollections\CollectionsSystemParameters.cs" Link="CollectionsSystemParameters.cs" />
+    <Compile Include="..\EsentCollections\ColumnConverter.cs" Link="ColumnConverter.cs" />
+    <Compile Include="..\EsentCollections\Compare.cs" Link="Compare.cs" />
+    <Compile Include="..\EsentCollections\ConstantExpressionCompiler.cs" Link="ConstantExpressionCompiler.cs" />
+    <Compile Include="..\EsentCollections\ConstantExpressionEvaluator.cs" Link="ConstantExpressionEvaluator.cs" />
+    <Compile Include="..\EsentCollections\Copy.cs" Link="Copy.cs" />
+    <Compile Include="..\EsentCollections\IPersistentDictionaryConfig.cs" Link="IPersistentDictionaryConfig.cs" />
+    <Compile Include="..\EsentCollections\Key.cs" Link="Key.cs" />
+    <Compile Include="..\EsentCollections\KeyColumnConverter.cs" Link="KeyColumnConverter.cs" />
+    <Compile Include="..\EsentCollections\KeyExpressionEvaluator.cs" Link="KeyExpressionEvaluator.cs" />
+    <Compile Include="..\EsentCollections\KeyRange.cs" Link="KeyRange.cs" />
+    <Compile Include="..\EsentCollections\KeyValueExpressionEvaluator.cs" Link="KeyValueExpressionEvaluator.cs" />
+    <Compile Include="..\EsentCollections\LazyTransaction.cs" Link="LazyTransaction.cs" />
+    <Compile Include="..\EsentCollections\PersistentBlob.cs" Link="PersistentBlob.cs" />
+    <Compile Include="..\EsentCollections\PersistentDictionary.cs" Link="PersistentDictionary.cs" />
+    <Compile Include="..\EsentCollections\PersistentDictionaryCollection.cs" Link="PersistentDictionaryCollection.cs" />
+    <Compile Include="..\EsentCollections\PersistentDictionaryConfig.cs" Link="PersistentDictionaryConfig.cs" />
+    <Compile Include="..\EsentCollections\PersistentDictionaryConverters.cs" Link="PersistentDictionaryConverters.cs" />
+    <Compile Include="..\EsentCollections\PersistentDictionaryCursor.cs" Link="PersistentDictionaryCursor.cs" />
+    <Compile Include="..\EsentCollections\PersistentDictionaryCursorCache.cs" Link="PersistentDictionaryCursorCache.cs" />
+    <Compile Include="..\EsentCollections\PersistentDictionaryDefaultConfig.cs" Link="PersistentDictionaryDefaultConfig.cs" />
+    <Compile Include="..\EsentCollections\PersistentDictionaryEnumerator.cs" Link="PersistentDictionaryEnumerator.cs" />
+    <Compile Include="..\EsentCollections\PersistentDictionaryFile.cs" Link="PersistentDictionaryFile.cs" />
+    <Compile Include="..\EsentCollections\PersistentDictionaryKeyCollection.cs" Link="PersistentDictionaryKeyCollection.cs" />
+    <Compile Include="..\EsentCollections\PersistentDictionaryLinq.cs" Link="PersistentDictionaryLinq.cs" />
+    <Compile Include="..\EsentCollections\PersistentDictionaryLinqExtensions.cs" Link="PersistentDictionaryLinqExtensions.cs" />
+    <Compile Include="..\EsentCollections\PersistentDictionaryLinqKeyEnumerable.cs" Link="PersistentDictionaryLinqKeyEnumerable.cs" />
+    <Compile Include="..\EsentCollections\PersistentDictionaryLinqKeyValueEnumerable.cs" Link="PersistentDictionaryLinqKeyValueEnumerable.cs" />
+    <Compile Include="..\EsentCollections\PersistentDictionaryMath.cs" Link="PersistentDictionaryMath.cs" />
+    <Compile Include="..\EsentCollections\PersistentDictionaryReverseEnumerator.cs" Link="PersistentDictionaryReverseEnumerator.cs" />
+    <Compile Include="..\EsentCollections\PersistentDictionaryTracing.cs" Link="PersistentDictionaryTracing.cs" />
+    <Compile Include="..\EsentCollections\PersistentDictionaryValueCollection.cs" Link="PersistentDictionaryValueCollection.cs" />
+    <Compile Include="..\EsentCollections\PredicateExpressionEvaluator.cs" Link="PredicateExpressionEvaluator.cs" />
+    <Compile Include="..\EsentCollections\ReadOnlyTransaction.cs" Link="ReadOnlyTransaction.cs" />
+    <Compile Include="..\EsentCollections\StringExpressionEvaluatorHelper.cs" Link="StringExpressionEvaluatorHelper.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Reflection.Emit.Lightweight" Version="4.3.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Esent.Isam.Standard\Esent.Isam.Standard.csproj" />
+    <ProjectReference Include="..\EsentInterop.Standard\EsentInterop.Standard.csproj" />
+  </ItemGroup>
+
+</Project>
