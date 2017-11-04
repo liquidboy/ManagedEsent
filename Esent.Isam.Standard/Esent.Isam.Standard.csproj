@@ -1,0 +1,65 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="..\isam\BoundCriteria.cs" Link="BoundCriteria.cs" />
+    <Compile Include="..\isam\ColumnAccessor.cs" Link="ColumnAccessor.cs" />
+    <Compile Include="..\isam\ColumnCollection.cs" Link="ColumnCollection.cs" />
+    <Compile Include="..\isam\ColumnDefinition.cs" Link="ColumnDefinition.cs" />
+    <Compile Include="..\isam\ColumnEnumerator.cs" Link="ColumnEnumerator.cs" />
+    <Compile Include="..\isam\ColumnFlags.cs" Link="ColumnFlags.cs" />
+    <Compile Include="..\isam\Columnid.cs" Link="Columnid.cs" />
+    <Compile Include="..\isam\ConditionalColumn.cs" Link="ConditionalColumn.cs" />
+    <Compile Include="..\isam\ConditionalColumnCollection.cs" Link="ConditionalColumnCollection.cs" />
+    <Compile Include="..\isam\config\ConfigSetBase.cs" Link="config\ConfigSetBase.cs" />
+    <Compile Include="..\isam\config\DatabaseConfig.cs" Link="config\DatabaseConfig.cs" />
+    <Compile Include="..\isam\config\DatabaseConfig.g.cs" Link="config\DatabaseConfig.g.cs" />
+    <Compile Include="..\isam\config\IConfigSet.cs" Link="config\IConfigSet.cs" />
+    <Compile Include="..\isam\converter.cs" Link="converter.cs" />
+    <Compile Include="..\isam\Cursor.cs" Link="Cursor.cs" />
+    <Compile Include="..\isam\CursorEnumerator.cs" Link="CursorEnumerator.cs" />
+    <Compile Include="..\isam\Database.cs" Link="Database.cs" />
+    <Compile Include="..\isam\DatabaseCommon.cs" Link="DatabaseCommon.cs" />
+    <Compile Include="..\isam\FieldCollection.cs" Link="FieldCollection.cs" />
+    <Compile Include="..\isam\FieldValueCollection.cs" Link="FieldValueCollection.cs" />
+    <Compile Include="..\isam\IndexCollection.cs" Link="IndexCollection.cs" />
+    <Compile Include="..\isam\IndexDefinition.cs" Link="IndexDefinition.cs" />
+    <Compile Include="..\isam\IndexEnumerator.cs" Link="IndexEnumerator.cs" />
+    <Compile Include="..\isam\IndexFlags.cs" Link="IndexFlags.cs" />
+    <Compile Include="..\isam\Instance.cs" Link="Instance.cs" />
+    <Compile Include="..\isam\IsamDatabase.cs" Link="IsamDatabase.cs" />
+    <Compile Include="..\isam\Key.cs" Link="Key.cs" />
+    <Compile Include="..\isam\KeyColumn.cs" Link="KeyColumn.cs" />
+    <Compile Include="..\isam\KeyColumnCollection.cs" Link="KeyColumnCollection.cs" />
+    <Compile Include="..\isam\KeySegment.cs" Link="KeySegment.cs" />
+    <Compile Include="..\isam\Location.cs" Link="Location.cs" />
+    <Compile Include="..\isam\MatchCriteria.cs" Link="MatchCriteria.cs" />
+    <Compile Include="..\isam\NativeMethods.cs" Link="NativeMethods.cs" />
+    <Compile Include="..\isam\Position.cs" Link="Position.cs" />
+    <Compile Include="..\isam\RecordEnumerator.cs" Link="RecordEnumerator.cs" />
+    <Compile Include="..\isam\Session.cs" Link="Session.cs" />
+    <Compile Include="..\isam\SystemParameters.cs" Link="SystemParameters.cs" />
+    <Compile Include="..\isam\TableCollection.cs" Link="TableCollection.cs" />
+    <Compile Include="..\isam\TableDefinition.cs" Link="TableDefinition.cs" />
+    <Compile Include="..\isam\TableEnumerator.cs" Link="TableEnumerator.cs" />
+    <Compile Include="..\isam\TableType.cs" Link="TableType.cs" />
+    <Compile Include="..\isam\TemporaryDatabase.cs" Link="TemporaryDatabase.cs" />
+    <Compile Include="..\isam\TempTableHandle.cs" Link="TempTableHandle.cs" />
+    <Compile Include="..\isam\TempTableHandleCollection.cs" Link="TempTableHandleCollection.cs" />
+    <Compile Include="..\isam\TempTableHandleEnumerator.cs" Link="TempTableHandleEnumerator.cs" />
+    <Compile Include="..\isam\Transaction.cs" Link="Transaction.cs" />
+    <Compile Include="..\isam\UnicodeIndexFlags.cs" Link="UnicodeIndexFlags.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\EsentInterop.Standard\EsentInterop.Standard.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="config\" />
+  </ItemGroup>
+
+</Project>

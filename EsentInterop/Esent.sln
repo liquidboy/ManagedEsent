@@ -37,7 +37,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EsentSample", "..\EsentInte
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicTest", "..\EsentInteropSamples\BasicTest\BasicTest.csproj", "{08819B49-02B8-4F93-A143-F9B0461CEA64}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EsentInterop.Standard", "..\EsentInterop.Standard\EsentInterop.Standard.csproj", "{D885D0BD-006A-4EDA-B395-B96A1A4A8DE2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EsentInterop.Standard", "..\EsentInterop.Standard\EsentInterop.Standard.csproj", "{D885D0BD-006A-4EDA-B395-B96A1A4A8DE2}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{108790A0-F7F2-497A-A1A2-126E5DB24775}"
 	ProjectSection(SolutionItems) = preProject
@@ -50,6 +50,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Nuget", "Nuget", "{B80EF98E
 	ProjectSection(SolutionItems) = preProject
 		..\Scripts\nuget\ManagedEsent.nuspec = ..\Scripts\nuget\ManagedEsent.nuspec
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EsentCollections.Standard", "..\EsentCollections.Standard\EsentCollections.Standard.csproj", "{5CF09871-887D-4EBB-B984-1C62BADED96B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Esent.Isam.Standard", "..\Esent.Isam.Standard\Esent.Isam.Standard.csproj", "{B9732003-EE2A-4E67-8D74-6978CA536325}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -113,6 +117,14 @@ Global
 		{D885D0BD-006A-4EDA-B395-B96A1A4A8DE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D885D0BD-006A-4EDA-B395-B96A1A4A8DE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D885D0BD-006A-4EDA-B395-B96A1A4A8DE2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5CF09871-887D-4EBB-B984-1C62BADED96B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CF09871-887D-4EBB-B984-1C62BADED96B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CF09871-887D-4EBB-B984-1C62BADED96B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CF09871-887D-4EBB-B984-1C62BADED96B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9732003-EE2A-4E67-8D74-6978CA536325}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9732003-EE2A-4E67-8D74-6978CA536325}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9732003-EE2A-4E67-8D74-6978CA536325}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9732003-EE2A-4E67-8D74-6978CA536325}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

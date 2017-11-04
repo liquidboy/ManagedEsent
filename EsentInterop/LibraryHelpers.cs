@@ -20,7 +20,7 @@ namespace Microsoft.Isam.Esent.Interop
     /// In particular, it contains functionality that is not available in
     /// reduced-functionality environments (such as CoreClr).
     /// </summary>
-    internal static class LibraryHelpers
+    public static class LibraryHelpers
     {
         /// <summary>Provides a platform-specific character used to separate directory levels in a path string that reflects a hierarchical file system organization.</summary>
         /// <filterpriority>1</filterpriority>

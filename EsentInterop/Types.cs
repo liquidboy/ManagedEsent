@@ -653,7 +653,7 @@ namespace Microsoft.Isam.Esent.Interop
         /// <param name="nativeValue">The native ESE JET_COLUMNID.</param>
         /// <returns>An initialized <see cref="JET_COLUMNID"/> structure.</returns>
         /// <remarks>Use of this function should be exceedingly rare.</remarks>
-        internal static JET_COLUMNID CreateColumnidFromNativeValue(int nativeValue)
+        public static JET_COLUMNID CreateColumnidFromNativeValue(int nativeValue)
         {
             return new JET_COLUMNID()
             {
