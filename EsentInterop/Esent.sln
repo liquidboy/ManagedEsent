@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.40629.0
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2002
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{18B3E50E-454E-49DB-A92F-E1D7DAD2AF7D}"
 	ProjectSection(SolutionItems) = preProject
@@ -35,6 +35,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EsentSample", "..\EsentInteropSamples\EsentSample\EsentSample.csproj", "{44D46916-891F-435F-B914-AE8AC80613FD}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicTest", "..\EsentInteropSamples\BasicTest\BasicTest.csproj", "{08819B49-02B8-4F93-A143-F9B0461CEA64}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EsentInterop.Standard", "..\EsentInterop.Standard\EsentInterop.Standard.csproj", "{D885D0BD-006A-4EDA-B395-B96A1A4A8DE2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -94,9 +96,16 @@ Global
 		{08819B49-02B8-4F93-A143-F9B0461CEA64}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{08819B49-02B8-4F93-A143-F9B0461CEA64}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{08819B49-02B8-4F93-A143-F9B0461CEA64}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D885D0BD-006A-4EDA-B395-B96A1A4A8DE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D885D0BD-006A-4EDA-B395-B96A1A4A8DE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D885D0BD-006A-4EDA-B395-B96A1A4A8DE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D885D0BD-006A-4EDA-B395-B96A1A4A8DE2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F0BCEE44-9396-4289-969E-E136B18809F7}
 	EndGlobalSection
 	GlobalSection(TestCaseManagementSettings) = postSolution
 		CategoryFile = Esent.vsmdi
