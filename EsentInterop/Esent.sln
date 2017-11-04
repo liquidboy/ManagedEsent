@@ -7,6 +7,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 	ProjectSection(SolutionItems) = preProject
 		CodeCoverage.testrunconfig = CodeCoverage.testrunconfig
 		esent.vsmdi = esent.vsmdi
+		..\Scripts\nuget\ManagedEsent.nuspec = ..\Scripts\nuget\ManagedEsent.nuspec
 		Normal.testrunconfig = Normal.testrunconfig
 	EndProjectSection
 EndProject
@@ -37,6 +38,18 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicTest", "..\EsentInteropSamples\BasicTest\BasicTest.csproj", "{08819B49-02B8-4F93-A143-F9B0461CEA64}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EsentInterop.Standard", "..\EsentInterop.Standard\EsentInterop.Standard.csproj", "{D885D0BD-006A-4EDA-B395-B96A1A4A8DE2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{108790A0-F7F2-497A-A1A2-126E5DB24775}"
+	ProjectSection(SolutionItems) = preProject
+		..\Scripts\createbinaries.bat = ..\Scripts\createbinaries.bat
+		..\Scripts\makelinks.pl = ..\Scripts\makelinks.pl
+		..\Scripts\processsignedbinaries.bat = ..\Scripts\processsignedbinaries.bat
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Nuget", "Nuget", "{B80EF98E-A968-467E-BD39-13E898CB6B10}"
+	ProjectSection(SolutionItems) = preProject
+		..\Scripts\nuget\ManagedEsent.nuspec = ..\Scripts\nuget\ManagedEsent.nuspec
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -103,6 +116,10 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{108790A0-F7F2-497A-A1A2-126E5DB24775} = {18B3E50E-454E-49DB-A92F-E1D7DAD2AF7D}
+		{B80EF98E-A968-467E-BD39-13E898CB6B10} = {108790A0-F7F2-497A-A1A2-126E5DB24775}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F0BCEE44-9396-4289-969E-E136B18809F7}
