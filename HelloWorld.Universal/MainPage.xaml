@@ -1,0 +1,16 @@
+﻿<Page
+    x:Class="HelloWorld.Universal.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:HelloWorld.Universal"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <StackPanel Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center">
+            <Button x:Name="butStart" Click="butStart_Click" Content="Write a record to Esent DB" HorizontalAlignment="Center"></Button>
+            <TextBlock x:Name="lblCount" Text="" HorizontalAlignment="Center" ></TextBlock>
+        </StackPanel>
+    </Grid>
+</Page>
