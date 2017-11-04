@@ -34,3 +34,5 @@ obj/
 # Log files
 msbuild.log
 msbuild.err
+
+/Release/*

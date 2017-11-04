@@ -5,7 +5,8 @@
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
-    <DocumentationFile>bin\Debug\netstandard2.0\Esent.Isam.Standard.xml</DocumentationFile>
+    <DocumentationFile>..\Release\Esent.Isam.Standard.xml</DocumentationFile>
+    <OutputPath>..\Release\</OutputPath>
   </PropertyGroup>
 
   <ItemGroup>

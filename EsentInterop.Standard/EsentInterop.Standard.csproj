@@ -8,7 +8,8 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
     <DefineConstants>TRACE;DEBUG;NETSTANDARD2_0;MANAGEDESENT_SUPPORTS_SERIALIZATION</DefineConstants>
-    <DocumentationFile>bin\Debug\netstandard2.0\Esent.Interop.Standard.xml</DocumentationFile>
+    <DocumentationFile>..\Release\Esent.Interop.Standard.xml</DocumentationFile>
+    <OutputPath>..\Release\</OutputPath>
   </PropertyGroup>
 
   <ItemGroup>
