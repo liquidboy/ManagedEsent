@@ -36,3 +36,4 @@ msbuild.log
 msbuild.err
 
 /Release/*
+/Scripts/nuget/*.nupkg
