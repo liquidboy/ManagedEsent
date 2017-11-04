@@ -42,8 +42,10 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{108790A0-F7F2-497A-A1A2-126E5DB24775}"
 	ProjectSection(SolutionItems) = preProject
 		..\Scripts\createbinaries.bat = ..\Scripts\createbinaries.bat
+		..\Scripts\createbinaries.standard.bat = ..\Scripts\createbinaries.standard.bat
 		..\Scripts\makelinks.pl = ..\Scripts\makelinks.pl
 		..\Scripts\processsignedbinaries.bat = ..\Scripts\processsignedbinaries.bat
+		..\Scripts\processsignedbinaries.standard.bat = ..\Scripts\processsignedbinaries.standard.bat
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Nuget", "Nuget", "{B80EF98E-A968-467E-BD39-13E898CB6B10}"
@@ -51,7 +53,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Nuget", "Nuget", "{B80EF98E
 		..\Scripts\nuget\ManagedEsent.nuspec = ..\Scripts\nuget\ManagedEsent.nuspec
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EsentCollections.Standard", "..\EsentCollections.Standard\EsentCollections.Standard.csproj", "{5CF09871-887D-4EBB-B984-1C62BADED96B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EsentCollections.Standard", "..\EsentCollections.Standard\EsentCollections.Standard.csproj", "{5CF09871-887D-4EBB-B984-1C62BADED96B}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Esent.Isam.Standard", "..\Esent.Isam.Standard\Esent.Isam.Standard.csproj", "{B9732003-EE2A-4E67-8D74-6978CA536325}"
 EndProject

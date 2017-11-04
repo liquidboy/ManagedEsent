@@ -4,6 +4,10 @@
     <TargetFramework>netstandard2.0</TargetFramework>
   </PropertyGroup>
 
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>bin\Debug\netstandard2.0\Esent.Isam.Standard.xml</DocumentationFile>
+  </PropertyGroup>
+
   <ItemGroup>
     <Compile Include="..\isam\BoundCriteria.cs" Link="BoundCriteria.cs" />
     <Compile Include="..\isam\ColumnAccessor.cs" Link="ColumnAccessor.cs" />
