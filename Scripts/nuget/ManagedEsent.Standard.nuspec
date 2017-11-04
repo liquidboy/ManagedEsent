@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>ManagedEsent.Standard</id>
+    <title>Managed Esent (Standard)</title>
+    <version>1.0.0</version>
+    <authors>martinc, jose fajardo</authors>
+    <owners>martinc</owners>
+    <licenseUrl>http://managedesent.codeplex.com/license</licenseUrl>
+    <projectUrl>https://github.com/liquidboy/ManagedEsent</projectUrl>
+    <iconUrl>https://netangels.net/wp-content/uploads/2017/04/3.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>
+      ManagedEsent provides managed access to ESENT, the embeddable database engine native to Windows. ManagedEsent uses the esent.dll that is part of Microsoft Windows so there are no extra unmanaged binaries to download and install.
+    </description>
+    <summary>Providing .NETStandard 2.0 access to ESENT</summary>
+    <releaseNotes>Release 1.0.0 from Nov 5 2017. Support for .NET Standard 2.0</releaseNotes>
+    <copyright>Copyright 2017</copyright>
+    <tags>ManagedEsent NoSql ISAM</tags>
+    <!--
+    <dependencies>
+      <dependency id="SampleDependency" version="1.0" />
+    </dependencies>
+    -->
+  </metadata>
+  <files>
+    <file src="..\..\Release\netstandard2.0\Esent.Collections.Standard.dll"    target="lib\netstandard2.0\Esent.Collections.Standard.dll" />
+    <file src="..\..\Release\netstandard2.0\Esent.Collections.Standard.pdb"    target="lib\netstandard2.0\Esent.Collections.Standard.pdb" />
+    <file src="..\..\Release\netstandard2.0\Esent.Collections.Standard.xml"    target="lib\netstandard2.0\Esent.Collections.Standard.xml" />
+
+    <file src="..\..\Release\netstandard2.0\Esent.Interop.Standard.dll"    target="lib\netstandard2.0\Esent.Interop.Standard.dll" />
+    <file src="..\..\Release\netstandard2.0\Esent.Interop.Standard.pdb"    target="lib\netstandard2.0\Esent.Interop.Standard.pdb" />
+    <file src="..\..\Release\netstandard2.0\Esent.Interop.Standard.xml"    target="lib\netstandard2.0\Esent.Interop.Standard.xml" />
+
+    <file src="..\..\Release\netstandard2.0\Esent.Isam.Standard.dll"    target="lib\netstandard2.0\Esent.Isam.Standard.dll" />
+    <file src="..\..\Release\netstandard2.0\Esent.Isam.Standard.pdb"    target="lib\netstandard2.0\Esent.Isam.Standard.pdb" />
+    <file src="..\..\Release\netstandard2.0\Esent.Isam.Standard.xml"    target="lib\netstandard2.0\Esent.Isam.Standard.xml" />
+
+    <file src="..\..\Esedb\esedb.py"     target="tools\esedb.py" />
+    <file src="..\..\Esedb\esedb_perf.py"     target="tools\esedb_perf.py" />
+    <file src="..\..\Esedb\esedbshelve.py"     target="tools\esedbshelve.py" />
+    <file src="..\..\Esedb\test_columnstream.py"     target="tools\test_columnstream.py" />
+    <file src="..\..\Esedb\test_esedb.py"     target="tools\test_esedb.py" />
+  </files>
+</package>
+
