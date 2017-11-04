@@ -31,7 +31,7 @@ set msbuildexe=%msbuildpath% /nologo /property:Configuration=Release
 @echo =-=-=-=-=-=-=-=
 @echo Compiling... (http://xkcd.com/303/)
 
-%msbuildexe% ..\EsentInterop\EsentInterop.Standard.csproj
+%msbuildexe% ..\EsentInterop.standard\EsentInterop.Standard.csproj
 if errorlevel 1 goto :eof
 
 @rem %msbuildexe% ..\EsentInterop\EsentInteropMetro.csproj
@@ -47,15 +47,15 @@ if errorlevel 1 goto :eof
 @echo Copying output files to staging area...
 set dest=%~dp0tosign-%version%
 
-for %%i in ( esent.collections.dll esent.collections.pdb esent.collections.xml ) do (
+for %%i in ( esent.collections.standard.dll esent.collections.standard.pdb esent.collections.standard.xml ) do (
   xcopy /d ..\EsentCollections.Standard\bin\release\%%i %dest%\
 )
 
-for %%i in ( esent.interop.dll esent.interop.pdb esent.interop.wsa.dll esent.interop.wsa.pdb esent.interop.xml esent.interop.wsa.xml ) do (
+for %%i in ( esent.interop.standard.dll esent.interop.standard.pdb esent.interop.standard.wsa.dll esent.interop.standard.wsa.pdb esent.interop.standard.xml esent.interop.standard.wsa.xml ) do (
   xcopy /d ..\EsentInterop.Standard\bin\release\%%i %dest%\
 )
 
-for %%i in ( esent.isam.dll esent.isam.pdb esent.isam.xml ) do (
+for %%i in ( esent.isam.standard.dll esent.isam.standard.pdb esent.isam.standard.xml ) do (
   xcopy /d ..\Esent.Isam.Standard\bin\release\%%i %dest%\
 )
 
